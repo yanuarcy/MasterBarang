@@ -1,0 +1,175 @@
+
+.Body {
+    background-image: url('../images/BgGudang.jpg');
+}
+
+.Body::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.4));
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.nav-link {
+    text-transform: uppercase;
+    /* margin-left: 80px; */
+}
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0B63DC;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.HomeLink {
+    color: rgb(231, 165, 95) !important;
+}
+
+.BarangLink {
+    color: rgb(231, 165, 95) !important;
+}
+
+.jumbotron {
+    /* margin-top: -165px !important; */
+    background-position: 0 -580px !important;
+
+}
+
+.komponen {
+    margin-top: 120px !important;
+}
+
+.jumbotron img {
+    width: 200px !important;
+    height: 200px !important;
+    border: solid #eee !important;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5) !important;
+
+}
+
+.jumbotron h1 {
+    font-size: 60px !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) !important;
+}
+
+.jumbotron p {
+    font-size: 28px !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) !important;
+}
+
+
+
+.navbar {
+    z-index: 1;
+    position: relative;
+    margin-top: -10px;
+}
+
+.navbar-brand {
+    font-family: Acme;
+    font-size: 40px;
+}
+
+.komponen {
+    margin-top: 150px;
+}
+
+.jumbotron {
+    height: 700px;
+    background-image: url('../images/BgGudang.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -900px;
+    color: #eee;
+    overflow: hidden;
+    position: relative;
+    margin-top: -60px;
+
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.4));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron img {
+    width: 100px;
+    height: 100px;
+    border: solid #eee;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+}
+
+.jumbotron h1 {
+    font-family: Questrial;
+    font-size: 45px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron p {
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+.Jumbotron {
+    height: 700px;
+    background-image: url('../images/BgGudang2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -900px;
+    color: #eee;
+    overflow: hidden;
+    position: relative;
+    margin-top: -60px;
+}
+
+.Jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.Jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.4));
+    position: absolute;
+    bottom: 0;
+}
+
+.Jumbotron .display-4 {
+    color: white;
+    margin-top: 200px;
+    /* font-weight: 50; */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.Jumbotron .display-4 span{
+    font-weight: 800;
+    color: rgb(231, 165, 95);
+}
